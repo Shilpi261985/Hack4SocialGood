@@ -22,3 +22,6 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message)
+
+# Output:
+# ChatCompletionMessage(content='- Felix\n- Sandra\n- Klaus\n- Carmen\n- Helen\n- Theodor', role='assistant', function_call=None, tool_calls=None)
