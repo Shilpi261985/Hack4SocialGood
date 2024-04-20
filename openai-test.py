@@ -16,8 +16,9 @@ completion = client.chat.completions.create(
     "content": "You are helpful assistant helping a social worker trying to make sense of journal entries. Be brief and to the point"},
   {"role": "user", "content": "What are the names of the people mentioned in the journal entries? just give me all their names"
                               f"journal entries (enclosed in ```): ```{contents}```"
-                              "Please give me all the names of the people mentioned in the journal entries."
-                              }]
+                              
+                              },
+  {"role": "user", "content": "Please give me all the names of the people mentioned in the journal entries."}]
 )
 
 print(completion.choices[0].message)
