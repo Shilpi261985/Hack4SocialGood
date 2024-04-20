@@ -6,7 +6,7 @@ Presentation (in German): [Slides](/slides.pdf)
 
 Source material: [anonymized journal entries](/anonyme%20Daten_X%20(ohne%20Bericht%3B%20nur%20Akteneinträge).docx)
 
-Final report: [report](/KI%20in%20Sozialberichte%20Hack4SocialGood.docx)
+Final report & learnings: [report](/KI%20in%20Sozialberichte%20Hack4SocialGood.docx)
 
 Running the samples:
 
